@@ -106,7 +106,7 @@ export function CaseStudies() {
               color: "transparent",
             }}
           >
-            Case Studies
+            live site
           </motion.p>
           <h2 className="mb-6 text-white max-w-3xl mx-auto">
             Real-World{" "}
@@ -242,7 +242,7 @@ export function CaseStudies() {
                     className={`inline-flex items-center gap-2 group/btn`}
                   >
                     <span className={`bg-gradient-to-r ${study.gradient} bg-clip-text text-transparent`}>
-                      View Full Case Study
+                      view live site
                     </span>
                     <ExternalLink size={16} className="text-purple-400 group-hover/btn:text-cyan-400 transition-colors" />
                   </motion.button>

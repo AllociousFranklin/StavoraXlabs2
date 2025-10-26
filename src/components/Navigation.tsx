@@ -56,7 +56,7 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {["services", "portfolio", "case-studies", "insights"].map((section) => (
+            {["services", "portfolio", "Live sites", "insights"].map((section) => (
               <motion.button
                 key={section}
                 onClick={() => scrollToSection(section)}
@@ -113,7 +113,7 @@ export function Navigation() {
                 onClick={() => scrollToSection("case-studies")}
                 className="block w-full text-left text-gray-300 hover:text-cyan-400 transition-colors py-2"
               >
-                Case Studies
+                Live Sites
               </button>
               <button
                 onClick={() => scrollToSection("insights")}

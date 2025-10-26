@@ -90,7 +90,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                  Case Studies
+                  Live Sites
                 </a>
               </li>
               <li>

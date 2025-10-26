@@ -5,7 +5,7 @@ export function Portfolio() {
   const stats = [
     {
       icon: Award,
-      value: "10+",
+      value: "2+",
       label: "Years of Excellence",
       description: "Delivering innovative solutions",
       gradient: "from-blue-400 to-indigo-500",
@@ -13,7 +13,7 @@ export function Portfolio() {
     },
     {
       icon: Users,
-      value: "50+",
+      value: "20+",
       label: "Satisfied Clients",
       description: "Across diverse industries",
       gradient: "from-indigo-400 to-purple-500",
@@ -21,7 +21,7 @@ export function Portfolio() {
     },
     {
       icon: TrendingUp,
-      value: "1M+",
+      value: "10K+",
       label: "Active Users",
       description: "Using our products daily",
       gradient: "from-cyan-400 to-blue-500",
@@ -29,7 +29,7 @@ export function Portfolio() {
     },
     {
       icon: Globe,
-      value: "15+",
+      value: "10+",
       label: "Countries",
       description: "Global reach and impact",
       gradient: "from-teal-400 to-cyan-500",

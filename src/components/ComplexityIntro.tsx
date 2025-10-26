@@ -6,7 +6,7 @@ export function ComplexityIntro() {
   const [phase, setPhase] = useState<"complexity" | "tagline" | "fadeout" | "hidden">("complexity");
   const [visibleWords, setVisibleWords] = useState(0);
 
-  const taglineWords = ["We", "Transform", "Complex", "Challenges", "into", "Intuitive", "Solutions"];
+  const taglineWords = ["We", "Transform", "Complex", "Challenges", "into", "Simplified", "Solutions"];
 
   const handleSimplifyClick = () => {
     setPhase("tagline");
@@ -21,7 +21,7 @@ export function ComplexityIntro() {
             setTimeout(() => {
               setPhase("hidden");
             }, 2000);
-          }, 3000); // 3 second pause after tagline completes
+          }, 4000); // 4 second pause after tagline completes
         }
       }, index * 400);
     });
@@ -326,7 +326,7 @@ export function ComplexityIntro() {
               <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 2, duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+                transition={{ delay: 3, duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
                 className="relative z-50"
               >
                 {/* Outer glow rings - pulsing */}
@@ -455,7 +455,7 @@ export function ComplexityIntro() {
                         x: ["-200%", "200%"],
                       }}
                       transition={{
-                        duration: 3,
+                        duration: 5,
                         repeat: Infinity,
                         ease: "linear",
                       }}

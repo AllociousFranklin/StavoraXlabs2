@@ -12,7 +12,7 @@ export function FAQ() {
     },
     {
       question: "What is your typical project timeline?",
-      answer: "Project timelines vary based on scope and complexity. A typical MVP can be delivered in 8-12 weeks, while comprehensive enterprise solutions may take 4-6 months. We follow agile methodologies with regular sprints and deliverables to ensure transparency and flexibility."
+      answer: "Project timelines vary based on scope and complexity. A typical MVP can be delivered in 8-10 weeks, while comprehensive enterprise solutions may take 4-6 months. We follow agile methodologies with regular sprints and deliverables to ensure transparency and flexibility."
     },
     {
       question: "How do you ensure code quality and security?",

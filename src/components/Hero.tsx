@@ -246,16 +246,16 @@ export function Hero() {
               whileTap={{ scale: 0.95 }}
               className="bg-white/5 text-white px-8 py-4 rounded-lg transition-all border-2 border-indigo-500/30 inline-flex items-center justify-center gap-2 backdrop-blur-sm"
             >
-              View Case Studies
+              View Live Sites
             </motion.button>
           </motion.div>
 
           {/* Key benefits with professional colors */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
             {[
-              { icon: CheckCircle, text: "10+ Years Experience", color: "from-blue-400 to-sky-500" },
-              { icon: CheckCircle, text: "50+ Successful Projects", color: "from-indigo-400 to-purple-500" },
-              { icon: CheckCircle, text: "1M+ Active Users", color: "from-purple-400 to-violet-500" }
+              { icon: CheckCircle, text: "2+ Years Experience", color: "from-blue-400 to-sky-500" },
+              { icon: CheckCircle, text: "20+ Successful Projects", color: "from-indigo-400 to-purple-500" },
+              { icon: CheckCircle, text: "10k+ Active Users", color: "from-purple-400 to-violet-500" }
             ].map((item, index) => (
               <motion.div
                 key={index}

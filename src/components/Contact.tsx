@@ -6,21 +6,21 @@ export function Contact() {
     {
       icon: Mail,
       title: "Email Us",
-      info: "contact@stavoraxlabs.com",
-      link: "mailto:contact@stavoraxlabs.com",
+      info: "contact.stavoraxlabs@gmail.com",
+      link: "mailto:contact.stavoraxlabs@gmail.com",
       gradient: "from-indigo-500 to-purple-500"
     },
     {
       icon: Phone,
       title: "Call Us",
-      info: "+1 (234) 567-890",
-      link: "tel:+1234567890",
+      info: "+91 63826 96238",
+      link: "tel:+91 63826 96238",
       gradient: "from-cyan-500 to-blue-500"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      info: "123 Innovation Drive, Tech Hub, CA 94000, United States",
+      info: "43, Vivekananda St, KK Nagar, Chennai, Tamil Nadu 600078, India",
       link: null,
       gradient: "from-blue-500 to-cyan-500"
     }

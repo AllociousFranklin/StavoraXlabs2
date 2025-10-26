@@ -37,9 +37,9 @@ export function Services() {
     },
     {
       icon: Cog,
-      title: "DevOps & Infrastructure",
-      description: "Streamline deployment pipelines and optimize infrastructure for reliability, scalability, and security.",
-      features: ["CI/CD Automation", "Cloud Migration", "Infrastructure as Code", "Security & Compliance"],
+      title: "Agentic AI & Automation",
+      description: "Agentic systems automate deployments, optimize cloud infrastructure for reliability, scalability, and security.",
+      features: ["Autonomous Agent Architectures", "GTM Agents", "Intelligent Supply Chain Optimization", "HR Policy & Knowledge Agents"],
       gradient: "from-teal-500 to-cyan-500",
       glowColor: "rgba(20, 184, 166, 0.3)"
     },

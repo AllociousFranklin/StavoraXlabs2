@@ -3,11 +3,11 @@ import { motion } from "motion/react";
 export function TechnologyStack() {
   const technologies = {
     "Frontend": ["React", "Next.js", "TypeScript", "Vue.js", "Tailwind CSS", "Redux"],
-    "Backend": ["Node.js", "Python", "Java", "Go", "GraphQL", "REST APIs"],
+    "Backend": ["Node.js", "Python", "Java", "Express", "FastApi", "REST APIs"],
     "Mobile": ["React Native", "Flutter", "iOS Native", "Android Native", "Expo"],
     "Cloud & DevOps": ["AWS", "Azure", "Google Cloud", "Docker", "Kubernetes", "Terraform"],
-    "Database": ["PostgreSQL", "MongoDB", "Redis", "DynamoDB", "Firebase", "Elasticsearch"],
-    "AI & ML": ["TensorFlow", "PyTorch", "OpenAI", "Scikit-learn", "NLP", "Computer Vision"]
+    "Database": ["MySQL", "MongoDB", "Supabase", "DynamoDB", "Firebase", "NoSQL"],
+    "AI & ML": ["TensorFlow", "PyTorch", "LLMs", "Scikit-learn", "NLP", "Computer Vision"]
   };
 
   return (
